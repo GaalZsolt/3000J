@@ -1,5 +1,6 @@
-from zsolt import feladat3,feladat6,feladat9,feladat12,feladat15,feladat18,feladat21,feladat24,feladat27,feladat30
-from Bence import feladat2,feladat5,feladat8,feladat11,feladat14,feladat17,feladat20,feladat23,feladat26,feladat29
+from Farkas import feladat1,feladat4,feladat7,feladat10#,feladat13,feladat16,feladat19,feladat22,feladat25,feladat28,feladat31
+from Bence import feladat2,feladat5,feladat8,feladat11,feladat14,feladat17,feladat20,feladat23,feladat26#,feladat29,feladat32
+from Zsolt import feladat3,feladat6,feladat9,feladat12,feladat15,feladat18,feladat21,feladat24,feladat27,feladat30
 
 
 class Tanulo:
@@ -15,18 +16,22 @@ class Tanulo:
         self.testverszama = testverszam
         Tanulo.lista.append(self)
 
-with open("input.txt", "r", encoding="utf8") as f:
+with open("J.txt", "r", encoding="utf8") as f:
 
     for sor in f:
         s = sor.strip().split(";")
         t = Tanulo(int(s[0]), s[1], s[2], s[3], s[4], s[5], int(s[6]), int(s[7]))
 
+feladat1(Tanulo.lista)
 feladat2(Tanulo.lista)
 feladat3(Tanulo.lista)
+feladat4(Tanulo.lista)
 feladat5(Tanulo.lista)
 feladat6(Tanulo.lista)
+feladat7(Tanulo.lista)
 feladat8(Tanulo.lista)
 feladat9(Tanulo.lista)
+feladat10(Tanulo.lista)
 feladat11(Tanulo.lista)
 feladat12(Tanulo.lista)
 feladat14(Tanulo.lista)

@@ -1,4 +1,4 @@
-from main import Tanulo
+# 3-mal osztva 1 maradékot adó feladatok
 
 def feladat1(lista):
     print("1) Hány diák tanul az osztályban?")
@@ -24,10 +24,3 @@ def feladat7(lista):
 
 def feladat10(lista):
     print("10) Hány diák tanul, az egyes angol csoportban?")
-
-
-
-feladat1(Tanulo.lista)
-feladat4(Tanulo.lista)
-feladat7(Tanulo.lista)
-feladat10(Tanulo.lista)
