@@ -21,7 +21,6 @@ with open("input.txt", "r", encoding="utf8") as f:
         s = sor.strip().split(";")
         t = Tanulo(int(s[0]), s[1], s[2], s[3], s[4], s[5], int(s[6]), int(s[7]))
 
-
 feladat2(Tanulo.lista)
 feladat3(Tanulo.lista)
 feladat5(Tanulo.lista)
@@ -41,12 +40,4 @@ feladat24(Tanulo.lista)
 feladat26(Tanulo.lista)
 feladat27(Tanulo.lista)
 feladat30(Tanulo.lista)
-
-
-
-
-
-
-
-
 
