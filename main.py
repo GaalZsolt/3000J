@@ -11,7 +11,11 @@ class Tanulo:
         self.testverszama = testverszam
         Tanulo.lista.append(self)
 
-with open("J.txt", "r", encoding="utf8") as f:
+
+
+
+
+with open("input.txt", "r", encoding="utf8") as f:
 
     for sor in f:
         s = sor.strip().split(";")
