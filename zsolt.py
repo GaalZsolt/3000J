@@ -1,5 +1,4 @@
 # 3-mal osztva 0 maradékot adó feladatok
-from main import Tanulo
 
 def feladat3(lista):
     print("3) Hány lány tanul az osztályban?")
@@ -85,17 +84,3 @@ def feladat30(lista):
     for i in lista:
         if i.acsop[0] == result and i.nev != 'Hát Izsák':
             print(i.nev)
-
-
-
-
-feladat3(Tanulo.lista)
-feladat6(Tanulo.lista)
-feladat9(Tanulo.lista)
-feladat12(Tanulo.lista)
-feladat15(Tanulo.lista)
-feladat18(Tanulo.lista)
-feladat21(Tanulo.lista)
-feladat24(Tanulo.lista)
-feladat27(Tanulo.lista)
-feladat30(Tanulo.lista)
