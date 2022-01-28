@@ -31,6 +31,21 @@ def feladat11(lista):
             kettesangol+=1
     print(kettesangol)
 
+def feladat14(lista):
+    print('14) Hány lány diák tanul, az alfa matematika csoportban?')
+    lanyokszama = 0
+    for t in Tanulo.lista:
+        if t.nem == 'L' and t.micsop == 'alfa':
+            lanyokszama+=1
+    print(lanyokszama)
+
+def feladat17(lista):
+    print('17) Hány fiú diák tanul, a beta matematika csoportban?')
+    fiukszama = 0
+    for t in Tanulo.lista:
+        if t.nem == 'F' and t.micsop == 'beta':
+            fiukszama+=1
+    print(fiukszama)
 
 
 feladat2(Tanulo.lista)
@@ -40,6 +55,12 @@ feladat5(Tanulo.lista)
 feladat8(Tanulo.lista)
 
 feladat11(Tanulo.lista)
+
+feladat14(Tanulo.lista)
+
+feladat17(Tanulo.lista)
+
+
 
 
 
