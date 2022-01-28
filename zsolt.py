@@ -1,0 +1,1 @@
+# 3-mal osztva 0 maradékot adó feladatok
