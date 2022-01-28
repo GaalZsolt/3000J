@@ -10,7 +10,7 @@
 10;Git Áron;beta;3. Joó;német;F;5;2
 11;Halo Lajos;alfa;4. Kis;német;F;5;2
 12;Hát Izsák;beta;3. Joó;német;F;4;1
-13;Heu Réka;beta;;német;L;3;0
+13;Heu Réka;beta;1. Sió;német;L;3;0
 14;Hot Elek;alfa;4. Kis;spanyol;F;5;2
 15;Illemta Nóra;alfa;4. Kis;spanyol;L;3;0
 16;Ka Pál;alfa;4. Kis;spanyol;F;5;2
